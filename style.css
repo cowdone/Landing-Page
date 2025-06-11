@@ -21,12 +21,64 @@ html, body {
 .header-img {
     height: 250px;
     width:auto;
+    border-radius: 8px;
 }
 .header-sign-up {
     background-color: #3382f6;
     padding:9px 23px;
     border-radius: 8px;
     color: white;
+}
+/* Info cards */
+.info {
+    background-color: white;
+    padding: 30px 0;
+}
+.info-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width:10%
+
+}
+.card-img {
+    height: 100px;
+    width:auto;
+    border-radius: 8px;
+}
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 26px;
+}
+.quote-container {
+    width:50%;
 }
 /* Footer */
 .header-logo {
